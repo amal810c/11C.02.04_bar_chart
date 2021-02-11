@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#bars {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.bar {
+  flex-grow: 1;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: #ddd6f3;
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+  background: linear-gradient(to right, #faaca8, #ddd6f3);
+  margin-right: 1px;
+  height: 100px;
+}
